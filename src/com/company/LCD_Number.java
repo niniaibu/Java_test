@@ -62,28 +62,64 @@ public class LCD_Number {
         return string_show;
     }
 
+    //改变字等宽
+    public String[] change_font(int size, String[] string_show){
+
+        int num_series_zeros = 0;
+        String[] string_list_sub = new String[2 * size + 3];
+        String[] string_change_list = new String[string_show.length];
+        for (int j_num = 0; j_num < string_show.length; j_num ++){
+            int num_zeros_max = size + 2;
+            String[] string_lists = string_show[j_num].split(",");
+            for (int i_string = 0; i_string < string_lists.length; i_string ++){
+                char[] char_list = string_lists[i_string].toCharArray();
+                for (int i_char = 0; i_char < char_list.length; i_char ++){
+                    if (char_list[i_char] == '0'){
+                        num_series_zeros += 1;
+                    }else{
+                        break;
+                    }
+                }
+                if(num_series_zeros < num_zeros_max){
+                    num_zeros_max = num_series_zeros;
+                }
+                num_series_zeros = 0;
+            }
+            String concat_string = "";
+            for (int i_delete = 0; i_delete < string_lists.length; i_delete ++){
+                // string_list_sub[i_delete] = string_lists[i_delete].substring(num_zeros_max);
+                concat_string = concat_string.concat(string_lists[i_delete].substring(num_zeros_max));
+                if (i_delete == string_lists.length - 1){
+                    break;
+                }
+                concat_string = concat_string.concat(",");
+            }
+            string_change_list[j_num] = concat_string;
+        }
+        return string_change_list;
+    }
+
 
     //间接映射展示函数
     public void show_array(int size, String[] string_show){
 
         int column = 2 * size + 3;
-        // String[] split_output_lists = new String[column];
         StringBuffer split_output_lists = new StringBuffer();
         for (int split_num = 0; split_num < column; split_num ++){
             for (int num = 0; num < string_show.length; num ++) {
                 String[] string_lists = string_show[num].split(",");
                 split_output_lists.append(string_lists[split_num]);
+                split_output_lists.append("0");
             }
-            // System.out.print(split_output_lists);
 
             char[] char_array_lists = split_output_lists.toString().toCharArray();
             for (int j = 0; j < char_array_lists.length; j++) {
-                if (char_array_lists[j] == '0') {
-                    System.out.print(' ');
+                if (char_array_lists[j] == '2') {
+                    System.out.print('-');
                 } else if (char_array_lists[j] == '1') {
                     System.out.print('|');
                 } else {
-                    System.out.print('-');
+                    System.out.print(' ');
                 }
             }
             System.out.println();
@@ -101,25 +137,79 @@ public class LCD_Number {
     }
 
     //方法重载——双参数
-    public void LCD_Number_with_N_size(String number, String size){
+    // public void LCD_Number_with_N_size(String number, String size){
+    //     int size_num = Integer.parseInt(size);
+    //     char[] number_lists = number.toCharArray();
+    //     String[] string_show = calculate_number_to_array(size_num, number_lists);
+    //     show_array(size_num, string_show);
+    // }
+    //
+    //
+    // public void LCD_Number_with_N_size(String number, boolean flag_change_font){
+    //     int size_num = 1;
+    //     char[] number_lists = number.toCharArray();
+    //     if (flag_change_font) {
+    //         String[] string_show = calculate_number_to_array(size_num, number_lists);
+    //         String[] string_change_font = change_font(size_num, string_show);
+    //         show_array(size_num, string_change_font);
+    //     }
+    // }
+
+
+    public void LCD_Number_with_N_size(String number, String size, boolean flag_change_font){
         int size_num = Integer.parseInt(size);
         char[] number_lists = number.toCharArray();
         String[] string_show = calculate_number_to_array(size_num, number_lists);
-        show_array(size_num, string_show);
+        if (flag_change_font) {
+            String[] string_change_font = change_font(size_num, string_show);
+            show_array(size_num, string_change_font);
+        }else{
+            show_array(size_num, string_show);
+        }
     }
 
 
     public static void main(String[] args) {
-        if (args.length < 2){
-            LCD_Number obj1 = new LCD_Number();
-            obj1.LCD_Number_with_N_size(args[0]);
-        }else if(args.length ==2 ){
-            char[] char_size = args[0].toCharArray();
-            if(char_size[0] == '-' && char_size[1] == 's'){
-                String size = Character.toString(char_size[2]);
-                LCD_Number obj2 = new LCD_Number();
-                obj2.LCD_Number_with_N_size(args[1], size);
-            }
+        LCD_Number obj = new LCD_Number();
+        String size = "1";
+        boolean change_font = false;
+        int index = 0;
+        switch (args.length){
+            case 1:
+                obj.LCD_Number_with_N_size(args[0], size, change_font);
+                break;
+            case 2:
+                for (int i = 0; i < 2; i ++) {
+                    if (args[i].startsWith("-s")) {
+                         size = args[i].substring(2);
+                    }
+                    if (args[i].startsWith("-f")) {
+                        change_font = true;
+                        String font_value = args[i].substring(2);
+                    }
+
+                    if (change_font){
+                        obj.LCD_Number_with_N_size(args[1 - i], size, change_font);
+                        break;
+                    }else{
+                        obj.LCD_Number_with_N_size(args[1 - i], size, change_font);
+                        break;
+                    }
+                }
+                break;
+            case 3:
+                for (int i = 0; i < 3; i ++) {
+
+                    if (args[i].startsWith("-s")) {
+                        size = args[i].substring(2);
+                    }else if (args[i].startsWith("-f")){
+                        change_font = true;
+                    }else{
+                        index = i;
+                    }
+                }
+                obj.LCD_Number_with_N_size(args[index], size, change_font);
+                break;
         }
     }
 }

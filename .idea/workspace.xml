@@ -7,20 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java_test_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Java_test_jar/Java_test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java_test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java_test/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCD_Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/LCD_Number.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_test/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LCD_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,23 +38,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6787" />
+          <entry key="java" value="9212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6787" />
+          <entry key="JAVA" value="9212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="12" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="12" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -78,11 +68,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="519">
+              <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="2025" column="35" selection-start-line="2025" selection-start-column="32" selection-end-line="2025" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -123,10 +122,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="63" />
-    <option name="y" value="23" />
-    <option name="width" value="1617" />
-    <option name="height" value="1027" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -163,6 +160,19 @@
               <item name="Java_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,11 +184,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540369407063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540436061225" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,10 +216,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCD_Number (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.LCD_Number" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LCD_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LCD_Number" />
       <module name="Java_test" />
-      <option name="PROGRAM_PARAMETERS" value="-s3 789" />
+      <option name="PROGRAM_PARAMETERS" value="1234567890" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -248,10 +270,12 @@
       <item itemvalue="Application.LCDNUmber" />
       <item itemvalue="Application.LCD_Number" />
       <item itemvalue="Application.LCD_Number_Copy" />
+      <item itemvalue="Application.LCD_Number (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LCD_Number" />
+        <item itemvalue="Application.LCD_Number (1)" />
         <item itemvalue="Application.LCD_Number_Copy" />
         <item itemvalue="Application.LCDNUmber" />
         <item itemvalue="Application.Main" />
@@ -271,12 +295,12 @@
       <workItem from="1540258564490" duration="19282000" />
       <workItem from="1540285349011" duration="24509000" />
       <workItem from="1540358823231" duration="2568000" />
-      <workItem from="1540361629730" duration="5579000" />
+      <workItem from="1540361629730" duration="22354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51938000" />
+    <option name="totallyTimeSpent" value="68713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +314,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.16422467" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.15262516" />
       <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.13125764" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,14 +323,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.50261235" side_tool="true" weight="0.16422467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25496343" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3322884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25496343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3260188" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4336468" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19958203" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32810867" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
@@ -327,6 +351,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/LCD_Number.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,21 +379,21 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44863">
-          <caret line="2720" column="29" selection-start-line="2720" selection-start-column="18" selection-end-line="2720" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/hahha.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number_Copy.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="2025" column="35" selection-start-line="2025" selection-start-column="32" selection-end-line="2025" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="519">
+          <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
