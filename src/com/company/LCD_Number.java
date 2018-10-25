@@ -205,6 +205,7 @@ public class LCD_Number {
         boolean change_font = false;
         int index = 0;
         String number = null;
+        // System.out.print(args.length);
         switch (args.length){
             case 1:
                 LCD_Number_with_N_size(args[0], size, change_font);
@@ -284,6 +285,7 @@ public class LCD_Number {
                 }else{
                     System.out.print("Not realized！");
                 }
+                break;
                 //起始为-f
                 // else if (args[i].startsWith("-f")){
                 //
@@ -336,6 +338,7 @@ public class LCD_Number {
                         }
                     }
                 }
+                break;
         }
     }
 
