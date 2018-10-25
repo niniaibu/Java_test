@@ -1,7 +1,8 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.sun.tools.javac.util.ArrayUtils;
+
+import java.util.*;
 
 public class LCD_Number {
 
@@ -62,8 +63,47 @@ public class LCD_Number {
         return string_show;
     }
 
-    //改变字等宽
+
+    //改变显示为非等宽
     public String[] change_font(int size, String[] string_show){
+
+        int num_series_zeros = 0;
+        // String[] string_list_sub = new String[2 * size + 3];
+        String[] string_change_list = new String[string_show.length];
+        for (int j_num = 0; j_num < string_show.length; j_num ++){
+            int num_zeros_max = size + 2;
+            String[] string_lists = string_show[j_num].split(",");
+            for (int i_string = 0; i_string < string_lists.length; i_string ++){
+                char[] char_list = string_lists[i_string].toCharArray();
+                for (int i_char = 0; i_char < char_list.length; i_char ++){
+                    if (char_list[i_char] == '0'){
+                        num_series_zeros += 1;
+                    }else{
+                        break;
+                    }
+                }
+                if(num_series_zeros < num_zeros_max){
+                    num_zeros_max = num_series_zeros;
+                }
+                num_series_zeros = 0;
+            }
+            String concat_string = "";
+            for (int i_delete = 0; i_delete < string_lists.length; i_delete ++){
+                // string_list_sub[i_delete] = string_lists[i_delete].substring(num_zeros_max);
+                concat_string = concat_string.concat(string_lists[i_delete].substring(num_zeros_max));
+                if (i_delete == string_lists.length - 1){
+                    break;
+                }
+                concat_string = concat_string.concat(",");
+            }
+            string_change_list[j_num] = concat_string;
+        }
+        return string_change_list;
+    }
+
+
+    //显示不同大小字符
+    public String[] change_size(int size, String[] string_show){
 
         int num_series_zeros = 0;
         String[] string_list_sub = new String[2 * size + 3];
@@ -107,9 +147,18 @@ public class LCD_Number {
         StringBuffer split_output_lists = new StringBuffer();
         for (int split_num = 0; split_num < column; split_num ++){
             for (int num = 0; num < string_show.length; num ++) {
+
                 String[] string_lists = string_show[num].split(",");
-                split_output_lists.append(string_lists[split_num]);
-                split_output_lists.append("0");
+                if (split_num >= string_lists.length){
+                        for (int j = 0; j < string_lists[0].length(); j ++){
+                            split_output_lists.append("0");
+
+                        }
+                        split_output_lists.append("0");
+                }else{
+                    split_output_lists.append(string_lists[split_num]);
+                    split_output_lists.append("0");
+                }
             }
 
             char[] char_array_lists = split_output_lists.toString().toCharArray();
@@ -123,37 +172,20 @@ public class LCD_Number {
                 }
             }
             System.out.println();
-            split_output_lists.delete(0,split_output_lists.length());
+            split_output_lists.delete(0, split_output_lists.length());
         }
     }
 
-    //方法重载——单参数
-    public void LCD_Number_with_N_size(String number){
-        String size = "1";
-        int size_num = Integer.parseInt(size);
-        char[] number_lists = number.toCharArray();
-        String[] string_show = calculate_number_to_array(size_num, number_lists);
-        show_array(size_num, string_show);
+
+    //合并两个字符串数组
+    public String[] merge_two_string_array(String[] strings1, String[] strings2){
+        List<String> string_show_both = new ArrayList<>(Arrays.asList(strings1));
+        string_show_both.addAll(Arrays.asList(strings2));
+        Object[] objectArray = string_show_both.toArray();
+        String[] string_show_last = Arrays.copyOf(objectArray, objectArray.length, String[].class);
+        return string_show_last;
     }
 
-    //方法重载——双参数
-    // public void LCD_Number_with_N_size(String number, String size){
-    //     int size_num = Integer.parseInt(size);
-    //     char[] number_lists = number.toCharArray();
-    //     String[] string_show = calculate_number_to_array(size_num, number_lists);
-    //     show_array(size_num, string_show);
-    // }
-    //
-    //
-    // public void LCD_Number_with_N_size(String number, boolean flag_change_font){
-    //     int size_num = 1;
-    //     char[] number_lists = number.toCharArray();
-    //     if (flag_change_font) {
-    //         String[] string_show = calculate_number_to_array(size_num, number_lists);
-    //         String[] string_change_font = change_font(size_num, string_show);
-    //         show_array(size_num, string_change_font);
-    //     }
-    // }
 
 
     public void LCD_Number_with_N_size(String number, String size, boolean flag_change_font){
@@ -168,31 +200,31 @@ public class LCD_Number {
         }
     }
 
-
-    public static void main(String[] args) {
-        LCD_Number obj = new LCD_Number();
+    public void judge_function(String[] args){
         String size = "1";
         boolean change_font = false;
         int index = 0;
+        String number = null;
         switch (args.length){
             case 1:
-                obj.LCD_Number_with_N_size(args[0], size, change_font);
+                LCD_Number_with_N_size(args[0], size, change_font);
                 break;
             case 2:
                 for (int i = 0; i < 2; i ++) {
+
                     if (args[i].startsWith("-s")) {
-                         size = args[i].substring(2);
+                        size = args[i].substring(2);
                     }
                     if (args[i].startsWith("-f")) {
                         change_font = true;
-                        String font_value = args[i].substring(2);
+                        // String font_value = args[i].substring(2);
                     }
 
                     if (change_font){
-                        obj.LCD_Number_with_N_size(args[1 - i], size, change_font);
+                        LCD_Number_with_N_size(args[1 - i], size, change_font);
                         break;
                     }else{
-                        obj.LCD_Number_with_N_size(args[1 - i], size, change_font);
+                        LCD_Number_with_N_size(args[1 - i], size, change_font);
                         break;
                     }
                 }
@@ -208,8 +240,109 @@ public class LCD_Number {
                         index = i;
                     }
                 }
-                obj.LCD_Number_with_N_size(args[index], size, change_font);
+                LCD_Number_with_N_size(args[index], size, change_font);
                 break;
+            case 4:
+                String size_two = "1";
+                String number_two;
+                int i = 0;
+
+                //起始为-s
+                if (args[i].startsWith("-s")){
+                    size = args[i].substring(2);
+                    int size_int = Integer.parseInt(size);
+                    index = i + 1;
+                    number = args[index];
+                    String[] string_show1 = calculate_number_to_array(size_int, number.toCharArray());
+                    index = index + 2;
+                    number_two = args[index];
+                    String[] strings_show2;
+                    String[] string_show_last;
+
+
+                    if (args[i + 2].startsWith("-s")){//第二个参数-s
+                        size_two = args[i + 2].substring(2);
+                        strings_show2 = calculate_number_to_array(Integer.parseInt(size_two), number_two.toCharArray());
+
+                        size = (size.compareTo(size_two) >= 0) ? size : size_two;
+                        size_int = Integer.parseInt(size);
+                        string_show_last = merge_two_string_array(string_show1, strings_show2);
+                        show_array(size_int, string_show_last);
+
+
+
+                    }else if (args[i + 2].startsWith("-f")){//第二个参数-f
+                        change_font = true;
+                        strings_show2 = calculate_number_to_array(Integer.parseInt(size_two), number_two.toCharArray());
+                        if (change_font) {
+                            String[] string_change_font = change_font(Integer.parseInt(size_two), strings_show2);
+                            string_show_last = merge_two_string_array(string_show1, string_change_font);
+                            show_array(size_int, string_show_last);
+                        }
+
+                    }
+                }else{
+                    System.out.print("Not realized！");
+                }
+                //起始为-f
+                // else if (args[i].startsWith("-f")){
+                //
+                // }
+            case 5:
+                size_two = "1";
+                i = 0;
+                if (args[i].startsWith("-s")){
+                    size = args[i].substring(2);
+                    int size_int = Integer.parseInt(size);
+                    if (! args[i + 1].startsWith("-f")) {
+                        index = i + 1;
+                        number = args[index];
+                        String[] string_show1 = calculate_number_to_array(size_int, number.toCharArray());
+                        index = index + 3;
+                        number_two = args[index];
+                        String[] strings_show2;
+                        String[] string_show_last;
+
+                        if (args[i + 2].startsWith("-s")) {
+                            size_two = args[i + 2].substring(2);
+                            strings_show2 = calculate_number_to_array(Integer.parseInt(size_two), number_two.toCharArray());
+
+                            if (args[i + 3].startsWith("-f")) {
+                                size = (size.compareTo(size_two) >= 0) ? size : size_two;
+                                size_int = Integer.parseInt(size);
+                                String[] string_change_font = change_font(Integer.parseInt(size_two), strings_show2);
+                                string_show_last = merge_two_string_array(string_show1, string_change_font);
+                                show_array(size_int, string_show_last);
+                            }
+                        }
+                    }else{
+                        index = i + 2;
+                        number = args[index];
+                        String[] string_show1 = calculate_number_to_array(size_int, number.toCharArray());
+                        String[] string_change_font = change_font(Integer.parseInt(size), string_show1);
+                        if (args[index + 1].startsWith("-s")){
+                            index = index + 2;
+                            number_two = args[index];
+                            String[] strings_show2;
+                            String[] string_show_last;
+
+                            size_two = args[index - 1].substring(2);
+                            strings_show2 = calculate_number_to_array(Integer.parseInt(size_two), number_two.toCharArray());
+
+                            size = (size.compareTo(size_two) >= 0) ? size : size_two;
+                            size_int = Integer.parseInt(size);
+                            string_show_last = merge_two_string_array(string_change_font, strings_show2);
+                            show_array(size_int, string_show_last);
+                        }
+                    }
+                }
         }
+    }
+
+
+
+    public static void main(String[] args) {
+        LCD_Number obj = new LCD_Number();
+        obj.judge_function(args);
     }
 }

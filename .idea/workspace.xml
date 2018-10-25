@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LCD_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,23 +35,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9212" />
+          <entry key="java" value="11253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9212" />
+          <entry key="JAVA" value="11253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="class" value="1" />
+          <entry key="java" value="14" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="14" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -68,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+            <state relative-caret-position="472">
+              <caret line="334" column="67" lean-forward="true" selection-start-line="334" selection-start-column="67" selection-end-line="334" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +77,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="2025" column="35" selection-start-line="2025" selection-start-column="32" selection-end-line="2025" selection-end-column="35" />
+            <state relative-caret-position="263">
+              <caret line="429" column="33" lean-forward="true" selection-start-line="429" selection-start-column="33" selection-end-line="429" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -122,8 +121,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -184,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540436061225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540458271372" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -231,7 +231,7 @@
     <configuration name="LCD_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LCD_Number" />
       <module name="Java_test" />
-      <option name="PROGRAM_PARAMETERS" value="1234567890" />
+      <option name="PROGRAM_PARAMETERS" value="-s2 -f 1234 -s3 811713" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -295,12 +295,12 @@
       <workItem from="1540258564490" duration="19282000" />
       <workItem from="1540285349011" duration="24509000" />
       <workItem from="1540358823231" duration="2568000" />
-      <workItem from="1540361629730" duration="22354000" />
+      <workItem from="1540361629730" duration="36926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68713000" />
+    <option name="totallyTimeSpent" value="83285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,7 +314,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.15262516" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.13736264" />
       <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.13125764" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,13 +324,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25496343" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3260188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38244513" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19958203" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2246604" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32810867" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
@@ -356,9 +356,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/LCD_Number.java</url>
-          <line>182</line>
+          <line>348</line>
           <properties />
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/LCD_Number.java</url>
+          <line>300</line>
+          <properties />
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -390,10 +396,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/ArrayUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="429" column="33" lean-forward="true" selection-start-line="429" selection-start-column="33" selection-end-line="429" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        <state relative-caret-position="472">
+          <caret line="334" column="67" lean-forward="true" selection-start-line="334" selection-start-column="67" selection-end-line="334" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
