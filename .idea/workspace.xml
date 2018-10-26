@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/LCD_Number.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LCD_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,35 +27,37 @@
     <session id="206070566">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11288" />
+          <entry key="java" value="13071" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11288" />
+          <entry key="JAVA" value="13071" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="java" value="14" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="JAVA" value="14" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -68,20 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="340" column="22" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6630">
-              <caret line="429" column="33" selection-start-line="429" selection-start-column="33" selection-end-line="429" selection-end-column="33" />
+            <state relative-caret-position="3208">
+              <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,6 +89,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>number</find>
+      <find>string_list_sub</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,6 +103,8 @@
         <option value="$PROJECT_DIR$/src/com/company/hahha.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/LCD_Number_Copy.java" />
+        <option value="$PROJECT_DIR$/change_font.txt" />
+        <option value="$PROJECT_DIR$/change_size.txt" />
         <option value="$PROJECT_DIR$/src/com/company/LCD_Number.java" />
       </list>
     </option>
@@ -121,9 +115,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="63" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1617" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -149,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,12 +174,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540481892613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540542951930" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -232,7 +227,7 @@
     <configuration name="LCD_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LCD_Number" />
       <module name="Java_test" />
-      <option name="PROGRAM_PARAMETERS" value="-s2 123 -s3 4567890" />
+      <option name="PROGRAM_PARAMETERS" value="-s5 -f 111 -f -s11 321 -s3 002 -s1 -f 112345678 " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -297,12 +292,13 @@
       <workItem from="1540285349011" duration="24509000" />
       <workItem from="1540358823231" duration="2568000" />
       <workItem from="1540361629730" duration="37839000" />
-      <workItem from="1540481457676" duration="413000" />
+      <workItem from="1540481457676" duration="545000" />
+      <workItem from="1540516571362" duration="16620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84611000" />
+    <option name="totallyTimeSpent" value="101363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,10 +310,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="63" y="23" width="1617" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.13858365" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.14539683" />
       <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.13125764" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,14 +322,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.50261235" side_tool="true" weight="0.16422467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25496343" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38244513" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4649123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4100877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.41797283" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23574561" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32810867" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -353,18 +349,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/LCD_Number.java</url>
-          <line>251</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
@@ -405,20 +389,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
+    <entry file="file://$PROJECT_DIR$/change_font.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="340" column="22" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6630">
+        <state relative-caret-position="831">
           <caret line="429" column="33" selection-start-line="429" selection-start-column="33" selection-end-line="429" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_size.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3208">
+          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
         </state>
       </provider>
     </entry>
