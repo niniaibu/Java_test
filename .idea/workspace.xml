@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCD_Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/LCD_Number.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/LCD_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.java" afterDir="false" />
-    </list>
+    <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3208">
-              <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+            <state relative-caret-position="500">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -180,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540542951930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540543003306" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -293,12 +289,12 @@
       <workItem from="1540358823231" duration="2568000" />
       <workItem from="1540361629730" duration="37839000" />
       <workItem from="1540481457676" duration="545000" />
-      <workItem from="1540516571362" duration="16620000" />
+      <workItem from="1540516571362" duration="17403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101363000" />
+    <option name="totallyTimeSpent" value="102146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,7 +307,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="23" width="1617" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.14539683" />
       <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.13125764" />
@@ -415,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3208">
-          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+        <state relative-caret-position="500">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
