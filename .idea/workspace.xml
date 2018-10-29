@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="" />
+    <list default="true" id="95a9ec14-3963-4616-be0b-4f65837e02b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Diamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_Number.md" beforeDir="false" afterPath="$PROJECT_DIR$/LCD_Number.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Java_test_jar/Java_test.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java_test_jar/Java_test.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_test/com/company/LCD_Number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LCD_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LCD_Number.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,28 +30,29 @@
     <session id="206070566">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13071" />
+          <entry key="java" value="15024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13071" />
+          <entry key="JAVA" value="15024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="14" />
+          <entry key="java" value="17" />
           <entry key="txt" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -52,7 +60,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="17" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -67,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-873">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -101,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/com/company/LCD_Number_Copy.java" />
         <option value="$PROJECT_DIR$/change_font.txt" />
         <option value="$PROJECT_DIR$/change_size.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Diamond.java" />
         <option value="$PROJECT_DIR$/src/com/company/LCD_Number.java" />
       </list>
     </option>
@@ -111,10 +121,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="66" />
     <option name="y" value="23" />
-    <option name="width" value="1617" />
+    <option name="width" value="1614" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -140,12 +150,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_test_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_test" type="b2602c69:ProjectViewProjectNode" />
@@ -169,14 +199,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540543003306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540799634542" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -194,7 +223,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LCD_Number">
+  <component name="RunManager" selected="Application.Diamond">
+    <configuration name="Diamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Diamond" />
+      <module name="Java_test" />
+      <option name="PROGRAM_PARAMETERS" value="K" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LCDNUmber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LCDNUmber" />
       <module name="Java_test" />
@@ -223,7 +266,7 @@
     <configuration name="LCD_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LCD_Number" />
       <module name="Java_test" />
-      <option name="PROGRAM_PARAMETERS" value="-s5 -f 111 -f -s11 321 -s3 002 -s1 -f 112345678 " />
+      <option name="PROGRAM_PARAMETERS" value="-s5 -f 111 -f -s11 321 -s3 002 -s1 -f 112345678 -s4 8112 -s5 -f 8112 -s6 002 -s7 002 -s8 002 -s9 002 -s10 002 -s15 002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -247,30 +290,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Java_test" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.LCDNUmber" />
       <item itemvalue="Application.LCD_Number" />
       <item itemvalue="Application.LCD_Number_Copy" />
       <item itemvalue="Application.LCD_Number (1)" />
+      <item itemvalue="Application.Diamond" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Diamond" />
         <item itemvalue="Application.LCD_Number" />
         <item itemvalue="Application.LCD_Number (1)" />
         <item itemvalue="Application.LCD_Number_Copy" />
         <item itemvalue="Application.LCDNUmber" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -289,12 +322,14 @@
       <workItem from="1540358823231" duration="2568000" />
       <workItem from="1540361629730" duration="37839000" />
       <workItem from="1540481457676" duration="545000" />
-      <workItem from="1540516571362" duration="17403000" />
+      <workItem from="1540516571362" duration="28146000" />
+      <workItem from="1540744369044" duration="561000" />
+      <workItem from="1540791330652" duration="7222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102146000" />
+    <option name="totallyTimeSpent" value="120672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,9 +341,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="23" width="1617" height="1027" extended-state="0" />
+    <frame x="64" y="23" width="1614" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.14539683" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49738768" visible="true" weight="0.15203562" />
       <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.13125764" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -317,7 +353,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50261235" side_tool="true" weight="0.16422467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4649123" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32456142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4100877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,7 +362,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23574561" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32810867" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32785088" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,10 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1474">
           <caret line="569" column="21" selection-start-line="569" selection-start-column="16" selection-end-line="569" selection-end-column="21" />
-          <folding>
-            <element signature="e#20319#20320#0" expanded="true" />
-            <element signature="e#20359#20360#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,13 +395,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/hahha.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number_Copy.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="2025" column="35" selection-start-line="2025" selection-start-column="32" selection-end-line="2025" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/ArrayUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -384,13 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change_font.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/change_font.txt" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="831">
@@ -398,20 +417,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change_size.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/change_size.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/main.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1961" column="20" selection-start-line="1961" selection-start-column="12" selection-end-line="1961" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LCD_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="-873">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="31" />
         </state>
       </provider>
     </entry>
